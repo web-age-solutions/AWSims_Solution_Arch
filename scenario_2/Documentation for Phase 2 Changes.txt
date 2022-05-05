@@ -1,0 +1,15 @@
+Example Changes 
+
+1.  turned on VPC Flow logs and outputted it to an encrypted (s3 not KMS) s3 bucket in Parquet format with Hive prefixes enabled 
+- Security - Flow Logs
+- Security - Encrypted S3 Bucket
+- Cost Optimization - S3 encryption
+- Cost Optimization - Parquet format
+- Hive Prefixes - Operational Excellence
+
+2.  
+
+***********************You may not use flow logs or MFA in the example above in your exercise******************************************
+
+You can suggest any changes that you want as long as you document them here AND show them in your cloudformation.
+Each implemented change in this phase is worth 10 points

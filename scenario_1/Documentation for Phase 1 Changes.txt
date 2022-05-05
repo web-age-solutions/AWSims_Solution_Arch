@@ -1,0 +1,18 @@
+Example Changes 
+
+1.  turned on VPC Flow logs and outputted it to an encrypted (s3 not KMS) s3 bucket in Parquet format with Hive prefixes enabled 
+- Security - Flow Logs
+- Security - Encrypted S3 Bucket
+- Cost Optimization - S3 encryption
+- Cost Optimization - Parquet format
+- Hive Prefixes - Operational Excellence
+
+
+2.  Turned on lifecycle rule to roll VPC flow logs to Glacier after 90 days
+- Cost Optimization - Move logs to Glacier after 90 days
+
+3. Enabled MFA on all accounts in Organization
+
+***********************You may not use flow logs or in the example above in your exercise******************************************
+
+You can suggest any changes that you want as long as you document them here AND show them in your diagram whether in words or in pictures.
